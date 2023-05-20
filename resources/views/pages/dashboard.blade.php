@@ -120,7 +120,7 @@
                         <div id="carouselExampleCaptions" class="carousel slide h-100" data-bs-ride="carousel">
                             <div class="carousel-inner border-radius-lg h-100">
                                 <div class="carousel-item h-100 active"
-                                    style="background-image: url('../assets/img/carousel-1.jpg');
+                                    style="background-image: url('{{asset('assets')}}/img/carousel-1.jpg');
       background-size: cover;">
                                     <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
                                         <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
@@ -132,7 +132,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item h-100"
-                                    style="background-image: url('../assets/img/carousel-2.jpg');
+                                    style="background-image: url('{{asset('assets')}}/img/carousel-2.jpg');
       background-size: cover;">
                                     <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
                                         <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
@@ -145,7 +145,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item h-100"
-                                    style="background-image: url('../assets/img/carousel-3.jpg');
+                                    style="background-image: url('{{asset('assets')}}/img/carousel-3.jpg');
       background-size: cover;">
                                     <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
                                         <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
@@ -186,7 +186,7 @@
                                         <td class="w-30">
                                             <div class="d-flex px-2 py-1 align-items-center">
                                                 <div>
-                                                    <img src="../assets/img/icons/flags/US.png" alt="Country flag">
+                                                    <img src="{{asset('assets')}}/img/icons/flags/US.png" alt="Country flag">
                                                 </div>
                                                 <div class="ms-4">
                                                     <p class="text-xs font-weight-bold mb-0">Country:</p>
@@ -217,7 +217,7 @@
                                         <td class="w-30">
                                             <div class="d-flex px-2 py-1 align-items-center">
                                                 <div>
-                                                    <img src="../assets/img/icons/flags/DE.png" alt="Country flag">
+                                                    <img src="{{asset('assets')}}/img/icons/flags/DE.png" alt="Country flag">
                                                 </div>
                                                 <div class="ms-4">
                                                     <p class="text-xs font-weight-bold mb-0">Country:</p>
@@ -248,7 +248,7 @@
                                         <td class="w-30">
                                             <div class="d-flex px-2 py-1 align-items-center">
                                                 <div>
-                                                    <img src="../assets/img/icons/flags/GB.png" alt="Country flag">
+                                                    <img src="{{asset('assets')}}/img/icons/flags/GB.png" alt="Country flag">
                                                 </div>
                                                 <div class="ms-4">
                                                     <p class="text-xs font-weight-bold mb-0">Country:</p>
@@ -279,7 +279,7 @@
                                         <td class="w-30">
                                             <div class="d-flex px-2 py-1 align-items-center">
                                                 <div>
-                                                    <img src="../assets/img/icons/flags/BR.png" alt="Country flag">
+                                                    <img src="{{asset('assets')}}/img/icons/flags/BR.png" alt="Country flag">
                                                 </div>
                                                 <div class="ms-4">
                                                     <p class="text-xs font-weight-bold mb-0">Country:</p>
@@ -436,7 +436,7 @@
     </main>
 
 
-    <script src="../assets/js/plugins/chartjs.min.js"></script>
+    <script src="{{asset('assets')}}/js/plugins/chartjs.min.js"></script>
     <script>
         var ctx1 = document.getElementById("chart-line").getContext("2d");
 
