@@ -49,6 +49,10 @@ class AdminController extends Controller
 
     public function login(Request $request)
     {
+        $adminUsername = session()->get('admin_username');
+        if (!$adminUsername) {
+            return redirect('login');
+        }
 
         $admin = Admin::where('username', $request->username)->where('password', $request->password)->first();
         if ($admin) {
